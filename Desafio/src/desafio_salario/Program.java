@@ -1,4 +1,4 @@
-package application;
+package desafio_salario;
 
 import java.util.Scanner;
 
