@@ -1,6 +1,4 @@
-package List.pesquisa_list.soma_numeros;
-
-import java.util.ArrayList;
+package list.pesquisa_list.soma_numeros;
 
 public class Program {
     public static void main(String[] args) {
