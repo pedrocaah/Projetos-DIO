@@ -1,4 +1,4 @@
-package set.operacoes_basicas;
+package set.operacoes_basicas.convidados;
 
 public class Program {
     public static void main(String[] args) {
