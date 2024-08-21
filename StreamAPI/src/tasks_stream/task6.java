@@ -9,12 +9,13 @@ public class task6 {
 
         List<Integer> numeros = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 5, 4, 3);
 
-       boolean verificarSeTemNumeroMaiorQue10 = numeros.stream()
-               .filter(n -> n > 10)
-               .allMatch();
+        boolean listaComNumerosMaiorQue10 = numeros.stream()
+               .anyMatch(n -> n > 10);
 
-       if (verificarSeTemNumeroMaiorQue10){
-           System.out.println();
+       if (listaComNumerosMaiorQue10){
+           System.out.println("Existem números maiores que 10 na lista");
+       } else {
+           System.out.println("Não existem números maiores que 10 na lista");
        }
     }
 }
